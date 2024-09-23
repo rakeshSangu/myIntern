@@ -1,0 +1,90 @@
+.background-container {
+    background-color: white;
+    padding-top: 25px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .top-heading {
+    color: black;
+    font-size: 30px;
+    font-weight: bold;
+    text-align: center;
+  }
+  .textarea-element {
+    font-size: 18px;
+    color: black;
+    width: 90%;
+    border: 1px solid black;
+  }
+  @media (min-width: 768px) {
+    .textarea-element {
+      width: 60%;
+    }
+  }
+  .user-inputs-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    margin-top: 10px;
+  }
+  @media (min-width: 768px) {
+    .user-inputs-container {
+      flex-direction: row;
+    }
+  }
+  .input-element {
+    padding: 10px;
+    border: 2px solid black;
+    border-radius: 3px;
+    margin: 10px;
+    width: 80%;
+    font-size: 16px;
+    font-weight: 500;
+  }
+  
+  @media (min-width: 768px) {
+    .input-element {
+      width: 25%;
+    }
+  }
+  .string1 {
+    color: red;
+  }
+  .string2 {
+    color: green;
+  }
+  
+  .replace-btn {
+    padding: 10px;
+    padding-left: 15px;
+    padding-right: 15px;
+    border-style: none;
+    border-radius: 5px;
+    font-size: 16px;
+    color: white;
+    font-weight: bold;
+    background-color: rgb(116, 116, 220);
+    margin: 10px;
+    margin-bottom: 2px;
+    cursor: pointer;
+  }
+  .error-para {
+    font-size: 16px;
+    color: red;
+    margin-top: 0px;
+  }
+  .count-para {
+    color: black;
+    font-size: 18px;
+    margin: 5px;
+  }
+  .count {
+    color: blue;
+    font-size: 20px;
+    font-weight: bold;
+    margin: 0px;
+  }
+  
