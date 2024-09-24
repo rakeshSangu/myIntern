@@ -1,4 +1,4 @@
-# Real-Time Text Analyzer
+í# Real-Time Text Analyzer
 
 ## Overview
 
@@ -28,5 +28,5 @@ A React application that provides **real-time text analysis**, including:
 To run the project locally:
 
 1. npm install.  
-2. npm rum.
+2. npm run.
 
