@@ -1,4 +1,4 @@
-í# Real-Time Text Analyzer
+# Real-Time Text Analyzer
 
 ## Overview
 
